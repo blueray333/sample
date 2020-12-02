@@ -28,3 +28,12 @@ Create a bash or python script to run iperf3 to measure TCP and UDP throughput b
 - the script should take remote server ip and port as parameters
 - output result to either stdout or file
  
+Answer:
+    Refer to "Trial" folder.  I setup my Python in eclipse as my IDE.  Also installed iPerf3 in Windows and pyInstaller.  The code runs but I'm having issues with a library that I could go around with.  it's looking for libiperf.so.0 which I believe is there when installing iPerf3 via pip. My research points me this has something to do with OS that i'm using (eg. windows). Given more time, I can find a solution to this issue.  
+    In regards to the code, it's pretty basic as long as the library required is added to the path of the project. 
+    
+4 - Documentation:
+Please include a readme.md file with the code that explains how to use 2 and 3 above, what the requirements are if any, and how to use it. Explain any design decisions you made.
+
+Answer:
+    
